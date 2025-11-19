@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishnal Patil - Data Scientist & AI/ML Specialist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="Untitled design.png" alt="Krishnal Patil Logo" />
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="https://linkedin.com/in/krishnal-patil-b1a5a6208/" target="_blank" rel="noopener" aria-label="LinkedIn" class="nav-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:patilkrishnal2003@gmail.com" aria-label="Email" class="nav-icon"><i class="fas fa-envelope"></i></a>
+                <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram" class="nav-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content animate-fade-in">
+                <div class="profile-image">
+                    <img src="dsvsai-intro.jpg" alt="Professional headshot of Krishnal Patil wearing formal attire with confident smile and modern glasses in a well-lit studio environment" />
+                </div>
+                <h1>Krishnal Patil</h1>
+                <p class="tagline"><span id="dynamicTagline">Data Science & Analytics</span><span class="cursor" aria-hidden="true">▍</span></p>
+                <p>Transforming complex data into actionable insights and building intelligent systems that drive innovation</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Get In Touch
+                    <a href="DA_Krishnal_Patil (2).pdf" target="_blank" class="btn btn-secondary" id="downloadCV">
+    <i class="fas fa-download"></i> Download CV
+</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Experience</h2>
+                <p>My professional experience — showing joining date and calculated duration (years, months, total months)</p>
+            </div>
+
+            <div class="exp-grid">
+                <!-- Each .exp-item should include a data-join attribute in ISO format (YYYY-MM-DD) -->
+                <div class="exp-item" data-join="2025-11-13">
+                    <h3>Data Science Intern — Shamgar Sofware solutions</h3>
+                    <p class="exp-joined">Joined: <span class="joined-date"></span></p>
+                    <p class="exp-duration">Experience: <span class="duration-text"></span> (<span class="total-months"></span> months)</p>
+                </div>
+
+                <div class="exp-item" data-join="2025-05-01">
+                    <h3>Data Analyst Intern — Learnbay</h3>
+                    <p class="exp-joined">Joined: <span class="joined-date"></span></p>
+                    <p class="exp-duration">Experience: <span class="duration-text"></span> (<span class="total-months"></span> months)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Passionate data professional with expertise in transforming raw data into valuable insights</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello! I'm Patil Krishnal</h3>
+                    <p>I am a dedicated Data Analyst with AI | ML passion for uncovering hidden patterns in data and building intelligent systems. With expertise in statistical analysis, machine learning, and data visualization, I transform complex datasets into actionable insights that drive business growth.</p>
+                    <p>My approach combines technical expertise with strategic thinking, ensuring that data-driven solutions align with business objectives and deliver measurable impact.</p>
+                    <div class="about-cta">
+                        <h4 class="about-cta-sub">I am open to contributing to new initiatives.</h4>
+                        <p class="about-cta-text">I enjoy collaborating on data-driven products and projects that use analytics, machine learning, and visualization to create measurable impact. If you have an idea or initiative where I can contribute, Im happy to help bring it to life — from prototyping to production.</p>
+                        <a href="#contact" class="btn btn-primary hire-me">Hire me</a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/cd0e8e03-7ea2-4717-9d57-ab12b1f02e53.png" alt="Data analyst working with multiple computer screens showing data visualizations and code in a modern office environment" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+                <p>A comprehensive overview of my technical expertise and proficiency levels</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Data Analysis</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Python (Pandas, NumPy)</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">SQL & Database Management</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Data Visualization(Power BI)</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Exploratory Data Analysis (EDA)</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Machine Learning</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Supervised & Unsupervised Learning</span>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Feature Engineering</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Model Evaluation</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Scikit-learn</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Data Engineering</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">ETL Pipelines</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Databases (MySQl, MongoDB)</span>
+                            <span class="skill-percentage">89%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Big Data Tool(Hadoop)</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Cloud Platform (AWS S3)</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+                <p>Showcasing my most impactful data science and machine learning projects</p>
+            </div>
+            <div class="projects-grid projects-grid-compact">
+                <div class="project-small project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="Churn" />
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title">Hospital Management system</h4>
+                        <p class="project-description">Developed a system to streamline patient records, appointments, and hospital operations.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            <a href="https://github.com/patilkrishnal2003/Hospital-Management-System" class="btn btn-primary btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-small project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg" alt="Dashboard" />
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title">IBM HR Analytics Dashboard</h4>
+                        <p class="project-description">Explored employee data to identify attrition factors and improve retention strategies.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            <a href="https://github.com/patilkrishnal2003/IBM-HR-Analytics-Dashboard" class="btn btn-primary btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-small project-card">
+                    <div class="project-image">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4153b334-21df-4faa-a16d-43a8181270bc.png" alt="NLP" />
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title">Netflix Data Analysis</h4>
+                        <p class="project-description">Analyzed viewing patterns and content trends to uncover insights about user preferences.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            <a href="https://github.com/patilkrishnal2003/Netflix-Data-Analysis-Project" class="btn btn-primary btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-small project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="ETL" />
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title">Covid-19 Data Analysis</h4>
+                        <p class="project-description">Examined global pandemic data to track case trends, mortality rates, and recovery patterns.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            <a href="https://github.com/patilkrishnal2003/covid-19-Analysis" class="btn btn-primary btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-small project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1526378724921-47f2d9b9f3ea" alt="NLP" />
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title">NLP Fake News Detection</h4>
+                        <p class="project-description">Built an NLP model to classify and detect misleading or fake news articles.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            <a href="https://github.com/patilkrishnal2003/NLP-Fake-News-Detection" class="btn btn-primary btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-small project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1505685296765-3a2736de412f" alt="AutoML" />
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title">Energy Consumption Prediction</h4>
+                        <p class="project-description">Predicted power usage based on environmental and meteorological factors using machine learning.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            <a href="https://github.com/patilkrishnal2003/Energy-consumption-Prediction" class="btn btn-primary btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-small project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" alt="Anomaly" />
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title">Telecom Churn Prediction</h4>
+                        <p class="project-description">Created a predictive model to identify customers likely to leave a telecom service.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            <a href="https://github.com/patilkrishnal2003/Telecom-Churn-Prediction" class="btn btn-primary btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-small project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="Recommender" />
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title">End to End Azure Data Engineer Project</h4>
+                        <p class="project-description">Designed and built a full data pipeline on Azure using ingestion, storage, transformation, and analytics components.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            <a href="https://github.com/patilkrishnal2003/nd-to-End-Azure-Data-Engineering-Project-" class="btn btn-primary btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-title">
+                <h2>Certifications</h2>
+                <p>Professional credentials that validate my expertise in data science and machine learning</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" style="height:20px;">
+
+                        </div>
+                        <div>
+                            <h3 class="cert-title">Python 101 for Data Science</h3>
+                            <p class="cert-issuer">IBM</p>
+                            <p class="cert-date">Issued: 2025</p>
+                        </div>
+                    </div>
+                    <p>Certified in sPython programming with a focus on data science applications. Learned essential concepts like data structures, libraries, and basic analytics for handling and processing data.</p>
+                    <a href="https://courses.learnvista.skillsnetwork.site/certificates/f0655509cf7a4db386770268f6a13c43" class="cert-credential">View Credential</a>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" style="height:20px;">
+
+                        </div>
+                        <div>
+                            <h3 class="cert-title">Machine Learning with Python</h3>
+                            <p class="cert-issuer">IBM</p>
+                            <p class="cert-date">Issued: 2025</p>
+                        </div>
+                    </div>
+                    <p>Certified in Machine Learning with Python, demonstrating strong skills in building and evaluating predictive models and model optimization using Python libraries.</p>
+                    <a href="https://courses.learnvista.skillsnetwork.site/certificates/7eb57bfcdd1b496aad9bc3d5329c2e5d" class="cert-credential">View Credential</a>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <img src="https://cdn.worldvectorlogo.com/logos/aws-2.svg" alt="AWS Logo" width="50">
+
+                        </div>
+                        <div>
+                            <h3 class="cert-title">AWS Certified Data Engineer - Associate</h3>
+                            <p class="cert-issuer">AWS</p>
+                            <p class="cert-date">Issued: 2025</p>
+                        </div>
+                    </div>
+                    <p>Certified in AWS Data Engineer – Associate validating your 
+                        expertise in designing, building & managing data solutions on the AWS platform.                    <a href="http://udemy-certificate.s3.amazonaws.com/pdf/UC-661f3e78-eccc-4fb6-ac09-88962ffae801.pdf" class="cert-credential">View Credential</a>
+                </div>
+
+        
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Ready to start your next data project? Let's discuss how I can help</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>patilkrishnal2003@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 7821014387</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Pune, IN</p>
+                        </div>
+                    </div>  
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Availability</h4>
+                            <p>Available for freelance projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span id="submitText">Send Message</span>
+                            <div class="loader" id="formLoader"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Patil Krishnal</div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/krishnal-patil-b1a5a6208/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/patilkrishnal2003" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="mailto:patilkrisnal2003@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                    <a href="+91 7821014387" class="social-link"><i class="fas fa-phone"></i></a>
+                </div>
+                <p class="copyright">© 2025 Patil Krishnal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+   (function() {
+      emailjs.init("T90uPlyvuIH1waeQP"); // Replace with your EmailJS Public Key
+   })();
+</script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
